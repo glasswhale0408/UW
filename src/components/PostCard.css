@@ -1,0 +1,30 @@
+.post{
+    width: 70%;
+    height: 40%;
+    margin: 10px;
+    background-color: rgb(37, 37, 37);
+    border-color: #4d4d4d;
+    font-size: 10;
+    color: #fefcfc;
+    flex-direction: column;
+}
+.total-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    color: #b04bff;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.time{
+    margin-right: 5px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.post p {
+  margin: 10px 0;
+  text-align: left; /* ⭐ 가운데 정렬 깨기 */
+}
