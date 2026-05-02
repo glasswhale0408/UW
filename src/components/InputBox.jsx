@@ -17,7 +17,7 @@ function InputBox({onAdd}) {
         <textarea 
           className="textarea1"
           value={client}
-          onChange={(e)=>setClient(e.target.value)}
+          onChange={(e)=>{setClient(e.target.value)}}
           placeholder="의뢰자 명을 입력하세요....">
         </textarea>
         <textarea
