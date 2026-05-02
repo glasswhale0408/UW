@@ -9,8 +9,8 @@ function PostCard({title, content, time}) {
         </div>
         <p>{content}</p>
         <div className="btn-group"> 
-         <button>답변하기</button>
-         <button>차단</button>
+         <button className="btn1">답변하기</button>
+         <button className="btn2">차단</button>
         </div>
      </div>
     )

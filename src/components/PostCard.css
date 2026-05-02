@@ -3,10 +3,11 @@
     height: 40%;
     margin: 10px;
     background-color: rgb(37, 37, 37);
-    border-color: #4d4d4d;
     font-size: 10;
     color: #fefcfc;
     flex-direction: column;
+    border-left: #747373;
+    border-left-width: 10px;
 }
 .total-title{
     display: flex;
@@ -15,16 +16,37 @@
 }
 .title{
     color: #b04bff;
-    font-size: 16px;
-    margin-left: 5px;
+    font-size: 14px;
+    margin-left: 10px;
 }
 .time{
-    margin-right: 5px;
-    font-size: 16px;
-    margin-right: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+    color:gray ;
 }
 
 .post p {
-  margin: 10px 0;
+  margin: 0 10px 10px 10px;
   text-align: left; /* ⭐ 가운데 정렬 깨기 */
+  overflow-wrap: break-word;
+  font-size: 14px;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: left;
+    margin: 10px
+}
+
+.btn1{
+    background-color: transparent;
+    color: aqua;
+    border-color: aqua;
+    margin-right: 10px;
+}
+.btn2{
+    background-color: transparent;
+    color: rgb(239, 25, 25);
+    border-color: rgb(239, 25, 25);
+    margin-right: 10px;
 }
